@@ -1,0 +1,123 @@
+﻿生成启动时间为 2017/11/1 21:20:30。
+     1>项目“D:\camera\camera034\usb2_camera_034 -3\usb2_camera_034.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing mygraphplot.h...
+         Moc'ing eventlabel.h...
+         Moc'ing qcustomplot.h...
+         Moc'ing mainwindow.h...
+         Moc'ing imageprocess.h...
+         Moc'ing imagemodel.h...
+         Moc'ing cydevice.h...
+         Rcc'ing mainwindow.qrc...
+         Uic'ing mainwindow.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_cydevice.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_cydevice.cpp, GeneratedFiles\Release\moc_cydevice.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_eventlabel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_eventlabel.cpp, GeneratedFiles\Release\moc_eventlabel.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_imagemodel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_imagemodel.cpp, GeneratedFiles\Release\moc_imagemodel.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_imageprocess.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_imageprocess.cpp, GeneratedFiles\Release\moc_imageprocess.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mainwindow.cpp, GeneratedFiles\Release\moc_mainwindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mygraphplot.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mygraphplot.cpp, GeneratedFiles\Release\moc_mygraphplot.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qcustomplot.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qcustomplot.cpp, GeneratedFiles\Release\moc_qcustomplot.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\opencv\opencv\build\include" /I.\inc\third_party /I.\inc /I.\GeneratedFiles /I. /IC:\qt\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\qt\5.5\msvc2013\include\QtCore /IC:\qt\5.5\msvc2013\include\QtGui /IC:\qt\5.5\msvc2013\include\QtWidgets /IC:\qt\5.5\msvc2013\include\QtConcurrent /IC:\qt\5.5\msvc2013\include\QtPrintSupport /IC:\qt\5.5\msvc2013\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /D QT_PRINTSUPPORT_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_cydevice.cpp GeneratedFiles\Debug\moc_eventlabel.cpp GeneratedFiles\Debug\moc_imagemodel.cpp GeneratedFiles\Debug\moc_imageprocess.cpp GeneratedFiles\Debug\moc_mainwindow.cpp GeneratedFiles\Debug\moc_mygraphplot.cpp GeneratedFiles\Debug\moc_qcustomplot.cpp src\cydevice.cpp src\eventlabel.cpp src\imagefifo.cpp src\imagemodel.cpp src\imageprocess.cpp src\main.cpp src\mainwindow.cpp src\mygraphplot.cpp "src\third-party\qcustomplot.cpp"
+         moc_cydevice.cpp
+         moc_eventlabel.cpp
+         moc_imagemodel.cpp
+         moc_imageprocess.cpp
+         moc_mainwindow.cpp
+         moc_mygraphplot.cpp
+         moc_qcustomplot.cpp
+         cydevice.cpp
+         eventlabel.cpp
+         imagefifo.cpp
+         imagemodel.cpp
+         imageprocess.cpp
+         main.cpp
+         mainwindow.cpp
+         mygraphplot.cpp
+         qcustomplot.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2798): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2783) : 参见“std::_Equal1”的声明
+                 C:\qt\5.5\msvc2013\include\QtCore/qvector.h(728): 参见对正在编译的函数 模板 实例化“bool std::equal<const T*,const T*>(_InIt1,_InIt1,_InIt2)”的引用
+                 with
+                 [
+                     T=QString
+         ,            _InIt1=const QString *
+         ,            _InIt2=const QString *
+                 ]
+                 C:\qt\5.5\msvc2013\include\QtCore/qvector.h(720): 编译类 模板 成员函数“bool QVector<T>::operator ==(const QVector<T> &) const”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 src\third-party\qcustomplot.cpp(8771): 参见对正在编译的函数 模板 实例化“bool QVector<T>::operator ==(const QVector<T> &) const”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(2145): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(2684): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const QCPGraphData*,QCPGraphData*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=QCPGraphData *
+         ,            _InIt=const QCPGraphData *
+                 ]
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(2667): 编译类 模板 成员函数“void QCPDataContainer<QCPGraphData>::add(const QVector<QCPGraphData> &,bool)”时
+                 src\third-party\qcustomplot.cpp(19970): 参见对正在编译的函数 模板 实例化“void QCPDataContainer<QCPGraphData>::add(const QVector<QCPGraphData> &,bool)”的引用
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(5192): 参见对正在编译的类 模板 实例化“QCPDataContainer<QCPGraphData>”的引用
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2409): warning C4996: 'std::_Copy_backward': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(3161): 参见对正在编译的函数 模板 实例化“_BidIt2 std::copy_backward<QCPGraphData*,QCPGraphData*>(_BidIt1,_BidIt1,_BidIt2)”的引用
+                 with
+                 [
+                     _BidIt2=QCPGraphData *
+         ,            _BidIt1=QCPGraphData *
+                 ]
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(3151): 编译类 模板 成员函数“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”时
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(2711): 参见对正在编译的函数 模板 实例化“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”的引用
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(4062): 编译类 模板 成员函数“QCPAbstractPlottable1D<QCPGraphData>::QCPAbstractPlottable1D(QCPAxis *,QCPAxis *)”时
+                 src\third-party\qcustomplot.cpp(19785): 参见对正在编译的函数 模板 实例化“QCPAbstractPlottable1D<QCPGraphData>::QCPAbstractPlottable1D(QCPAxis *,QCPAxis *)”的引用
+                 D:\camera\camera034\usb2_camera_034 -3\inc\third_party\qcustomplot.h(5120): 参见对正在编译的类 模板 实例化“QCPAbstractPlottable1D<QCPGraphData>”的引用
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\opencv\opencv\build\include" /I.\inc\third_party /I.\inc /I.\GeneratedFiles /I. /IC:\qt\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\qt\5.5\msvc2013\include\QtCore /IC:\qt\5.5\msvc2013\include\QtGui /IC:\qt\5.5\msvc2013\include\QtWidgets /IC:\qt\5.5\msvc2013\include\QtConcurrent /IC:\qt\5.5\msvc2013\include\QtPrintSupport /IC:\qt\5.5\msvc2013\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /D QT_PRINTSUPPORT_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mainwindow.cpp
+         qrc_mainwindow.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Debug\camera.res" camera.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\camera\camera034\usb2_camera_034 -3\Win32\Debug\\usb2_camera_034.exe" /NOLOGO /LIBPATH:"C:\Program Files\opencv\opencv\build\x86\vc12\lib" /LIBPATH:.\lib /LIBPATH:C:\qt\5.5\msvc2013\lib setupapi.lib CyAPI.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Concurrentd.lib Qt5PrintSupportd.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Sqld.lib opencv_ml2411d.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_objdetect2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_nonfree2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\camera\camera034\usb2_camera_034 -3\Win32\Debug\usb2_camera_034.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\camera\camera034\usb2_camera_034 -3\Win32\Debug\usb2_camera_034.lib" /MACHINE:X86 /SAFESEH /NODEFAULTLIB:"libcmt.lib" Debug\camera.res
+         Debug\moc_cydevice.obj
+         Debug\moc_eventlabel.obj
+         Debug\moc_imagemodel.obj
+         Debug\moc_imageprocess.obj
+         Debug\moc_mainwindow.obj
+         Debug\moc_mygraphplot.obj
+         Debug\moc_qcustomplot.obj
+         Debug\qrc_mainwindow.obj
+         Debug\cydevice.obj
+         Debug\eventlabel.obj
+         Debug\imagefifo.obj
+         Debug\imagemodel.obj
+         Debug\imageprocess.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         Debug\mygraphplot.obj
+         Debug\qcustomplot.obj
+         usb2_camera_034.vcxproj -> D:\camera\camera034\usb2_camera_034 -3\Win32\Debug\usb2_camera_034.exe
+     1>已完成生成项目“D:\camera\camera034\usb2_camera_034 -3\usb2_camera_034.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:46.08
